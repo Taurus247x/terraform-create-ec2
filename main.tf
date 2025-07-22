@@ -52,7 +52,7 @@ resource "aws_security_group" "demotf_security_group" {
 variable "instance_keypair" {
   description = "AWS EC2 key pair for ssh access"
   type = string
-  default ="key01"
+  default ="Key01"
   sensitive = true
 }
 
